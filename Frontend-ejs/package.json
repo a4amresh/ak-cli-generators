@@ -1,0 +1,49 @@
+{
+  "name": "html5",
+  "version": "1.0.4",
+  "description": "Html5 project startup kit by AK",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "start:prod": "gulp --env production",
+    "build": "gulp build",
+    "build:prod": "gulp build --env production"
+  },
+  "keywords": [
+    "Website",
+    "responsive",
+    "html5"
+  ],
+  "author": "Amresh Kumar",
+  "license": "GPL",
+  "config": {
+    "viewDest": "ak-dest",
+    "assetsDest": "ak-dest",
+    "srcDir": "ak-src",
+    "vendors": {
+      "js": [],
+      "css": [],
+      "fonts": []
+    },
+    "prefix": "ak"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^4.1.1",
+    "gulp-environments": "^0.1.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^4.12.0"
+  }
+}

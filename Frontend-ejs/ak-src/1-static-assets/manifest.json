@@ -1,0 +1,12 @@
+{
+  "name": "htmlproject",
+  "short_name": "html5",
+  "theme_color": "#121E47",
+  "background_color": "#121E47",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [],
+  "splash_pages": null
+}
